@@ -38,6 +38,10 @@
   text-decoration: underline;
 }
 
+.archive-notice .small {
+  font-size: 12px;
+}
+
 .usa-list {
   margin-bottom: 1em;
   margin-top: 1em;
@@ -1491,8 +1495,7 @@ var {
   text-align: left;
   background-image: url(https://reproductiverights.online/external.svg),
     -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
-  background-image: url(https://reproductiverights.online/external.svg),
-    linear-gradient(transparent, transparent);
+  background-image: url(https://reproductiverights.online/external.svg), linear-gradient(transparent, transparent);
   background-repeat: no-repeat;
   background-color: #f0f0f0;
   background-position: right 1.25rem center;
@@ -1564,8 +1567,7 @@ var {
 .usa-accordion__button[aria-expanded='false'] {
   background-image: url(https://reproductiverights.online/externalg),
     -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
-  background-image: url(https://reproductiverights.online/externalg),
-    linear-gradient(transparent, transparent);
+  background-image: url(https://reproductiverights.online/externalg), linear-gradient(transparent, transparent);
   background-repeat: no-repeat;
   background-size: 1.5rem;
 }
@@ -1698,8 +1700,7 @@ var {
   text-decoration: underline;
 }
 .usa-banner__header-action::after {
-  background: url(https://reproductiverights.online/external_more.svg) no-repeat
-    center/contain;
+  background: url(https://reproductiverights.online/external_more.svg) no-repeat center/contain;
   display: inline-block;
   height: 1rem;
   width: 1rem;
@@ -1711,10 +1712,8 @@ var {
   .usa-banner__header-action::after {
     background: 0 0;
     background-color: #005ea2;
-    -webkit-mask: url(https://reproductiverights.online/external_more.svg)
-      no-repeat center/contain;
-    mask: url(https://reproductiverights.online/external_more.svg) no-repeat
-      center/contain;
+    -webkit-mask: url(https://reproductiverights.online/external_more.svg) no-repeat center/contain;
+    mask: url(https://reproductiverights.online/external_more.svg) no-repeat center/contain;
   }
   .usa-banner__header-action::after:hover {
     background-color: #1a4480;
@@ -1869,8 +1868,7 @@ var {
     position: relative;
   }
   .usa-banner__button::after {
-    background: url(https://reproductiverights.online/external_more.svg)
-      no-repeat center/contain;
+    background: url(https://reproductiverights.online/external_more.svg) no-repeat center/contain;
     display: inline-block;
     height: 1rem;
     width: 1rem;
@@ -1882,10 +1880,8 @@ var {
     .usa-banner__button::after {
       background: 0 0;
       background-color: #005ea2;
-      -webkit-mask: url(https://reproductiverights.online/external_more.svg)
-        no-repeat center/contain;
-      mask: url(https://reproductiverights.online/external_more.svg) no-repeat
-        center/contain;
+      -webkit-mask: url(https://reproductiverights.online/external_more.svg) no-repeat center/contain;
+      mask: url(https://reproductiverights.online/external_more.svg) no-repeat center/contain;
     }
     .usa-banner__button::after:hover {
       background-color: #1a4480;
@@ -1924,8 +1920,7 @@ var {
 }
 @media all and (max-width: 39.99em) {
   .usa-banner__button[aria-expanded='true']::after {
-    background: url(https://reproductiverights.online/externalsvg) no-repeat
-      center/contain;
+    background: url(https://reproductiverights.online/externalsvg) no-repeat center/contain;
     display: inline-block;
     height: 3rem;
     width: 3rem;
@@ -1937,10 +1932,8 @@ var {
     .usa-banner__button[aria-expanded='true']::after {
       background: 0 0;
       background-color: #005ea2;
-      -webkit-mask: url(https://reproductiverights.online/externalsvg) no-repeat
-        center/contain;
-      mask: url(https://reproductiverights.online/externalsvg) no-repeat
-        center/contain;
+      -webkit-mask: url(https://reproductiverights.online/externalsvg) no-repeat center/contain;
+      mask: url(https://reproductiverights.online/externalsvg) no-repeat center/contain;
     }
   }
   .usa-banner__button[aria-expanded='true']::before {
@@ -1968,8 +1961,7 @@ var {
     position: relative;
   }
   .usa-banner__button[aria-expanded='true']::after {
-    background: url(https://reproductiverights.online/external_less.svg)
-      no-repeat center/contain;
+    background: url(https://reproductiverights.online/external_less.svg) no-repeat center/contain;
     display: inline-block;
     height: 1rem;
     width: 1rem;
@@ -1981,10 +1973,8 @@ var {
     .usa-banner__button[aria-expanded='true']::after {
       background: 0 0;
       background-color: #005ea2;
-      -webkit-mask: url(https://reproductiverights.online/external_less.svg)
-        no-repeat center/contain;
-      mask: url(https://reproductiverights.online/external_less.svg) no-repeat
-        center/contain;
+      -webkit-mask: url(https://reproductiverights.online/external_less.svg) no-repeat center/contain;
+      mask: url(https://reproductiverights.online/external_less.svg) no-repeat center/contain;
     }
     .usa-banner__button[aria-expanded='true']::after:hover {
       background-color: #1a4480;
@@ -4217,8 +4207,7 @@ abbr[title='required'] {
   cursor: pointer;
 }
 .usa-footer__primary-link--button::before {
-  background: url(https://reproductiverights.online/external_more.svg) no-repeat
-    center/contain;
+  background: url(https://reproductiverights.online/external_more.svg) no-repeat center/contain;
   display: inline-block;
   vertical-align: middle;
 }
@@ -4226,10 +4215,8 @@ abbr[title='required'] {
   .usa-footer__primary-link--button::before {
     background: 0 0;
     background-color: currentColor;
-    -webkit-mask: url(https://reproductiverights.online/external_more.svg)
-      no-repeat center/contain;
-    mask: url(https://reproductiverights.online/external_more.svg) no-repeat
-      center/contain;
+    -webkit-mask: url(https://reproductiverights.online/external_more.svg) no-repeat center/contain;
+    mask: url(https://reproductiverights.online/external_more.svg) no-repeat center/contain;
   }
 }
 .usa-footer__primary-link--button:not([disabled]):focus {
@@ -4263,8 +4250,7 @@ abbr[title='required'] {
   margin-bottom: 0.5rem;
 }
 .usa-footer__primary-link--button[aria-expanded='false']::before {
-  background: url(https://reproductiverights.online/externalte_next.svg)
-    no-repeat center/contain;
+  background: url(https://reproductiverights.online/externalte_next.svg) no-repeat center/contain;
   display: inline-block;
   height: 1.25rem;
   width: 1.25rem;
@@ -4276,10 +4262,8 @@ abbr[title='required'] {
   .usa-footer__primary-link--button[aria-expanded='false']::before {
     background: 0 0;
     background-color: currentColor;
-    -webkit-mask: url(https://reproductiverights.online/externalte_next.svg)
-      no-repeat center/contain;
-    mask: url(https://reproductiverights.online/externalte_next.svg) no-repeat
-      center/contain;
+    -webkit-mask: url(https://reproductiverights.online/externalte_next.svg) no-repeat center/contain;
+    mask: url(https://reproductiverights.online/externalte_next.svg) no-repeat center/contain;
   }
 }
 .usa-footer__primary-link--button[aria-expanded='false'] + .usa-list--unstyled {
@@ -4790,31 +4774,25 @@ abbr[title='required'] {
   position: absolute;
 }
 .usa-link--external::after {
-  background: url(https://reproductiverights.online/external.svg) no-repeat
-    center/contain;
+  background: url(https://reproductiverights.online/external.svg) no-repeat center/contain;
 }
 @supports ((-webkit-mask: url()) or (mask: url())) {
   .usa-link--external::after {
     background: 0 0;
     background-color: currentColor;
-    -webkit-mask: url(https://reproductiverights.online/external.svg) no-repeat
-      center/contain;
-    mask: url(https://reproductiverights.online/external.svg) no-repeat
-      center/contain;
+    -webkit-mask: url(https://reproductiverights.online/external.svg) no-repeat center/contain;
+    mask: url(https://reproductiverights.online/external.svg) no-repeat center/contain;
   }
 }
 .usa-link--external.usa-link--alt::after {
-  background: url(https://reproductiverights.online/externalnch--white.svg)
-    no-repeat center/contain;
+  background: url(https://reproductiverights.online/externalnch--white.svg) no-repeat center/contain;
 }
 @supports ((-webkit-mask: url()) or (mask: url())) {
   .usa-link--external.usa-link--alt::after {
     background: 0 0;
     background-color: currentColor;
-    -webkit-mask: url(https://reproductiverights.online/external.svg) no-repeat
-      center/contain;
-    mask: url(https://reproductiverights.online/external.svg) no-repeat
-      center/contain;
+    -webkit-mask: url(https://reproductiverights.online/external.svg) no-repeat center/contain;
+    mask: url(https://reproductiverights.online/external.svg) no-repeat center/contain;
   }
 }
 .usa-media-link {
